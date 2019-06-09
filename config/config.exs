@@ -29,7 +29,4 @@ use Mix.Config
 #
 #     import_config "#{Mix.env()}.exs"
 
-config :hello, Hello.Endpoint, port: 4000
-config :hello, redirect_url: "http://localhost:4000/bot"
-
-# import_config "#{Mix.env()}.exs"
+import_config "#{Mix.env()}.exs"

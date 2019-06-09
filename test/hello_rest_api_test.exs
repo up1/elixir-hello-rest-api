@@ -1,8 +1,8 @@
-defmodule HelloRestApiTest do
+defmodule HelloTest do
   use ExUnit.Case
-  doctest HelloRestApi
+  doctest Hello
 
   test "greets the world" do
-    assert HelloRestApi.hello() == :world
+    assert Hello.hello() == :world
   end
 end
